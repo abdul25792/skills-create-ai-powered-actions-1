@@ -7,7 +7,7 @@ inputs:
     required: true
   token:
     description: "Personal access token to be used for GitHub Models API call"
-    default: ${{ github.token }}
+    required: true
 
 outputs:
   result:
