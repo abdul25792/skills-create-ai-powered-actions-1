@@ -1,0 +1,22 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.vscode-github-actions",
+        "me-dutour-mathieu.vscode-github-actions",
+        "redhat.vscode-yaml",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "[yaml]": {
+          "editor.tabSize": 2,
+          "editor.defaultFormatter": "redhat.vscode-yaml",
+          "editor.insertSpaces": true
+        }
+      }
+    }
+  }
+}
